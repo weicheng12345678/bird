@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #f6f6f6 url("./image/test-image/bg.gif");
+    color: #333;
+}
+
+/*头部css*/
+.top{
+    margin-top: 17px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top-content{
+    width: 100%;
+    max-width: 1260px;
+    min-width: 755px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top-logo{
+    width: 61.6%;
+    margin-right: 1%;
+    float: left;
+}
+.top-logo h1{
+    background-image: url("./image/test-image/runoob-logo.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 258px;
+    height: 39px;
+    margin: 10px 0 10px 20px;
+    display: block;
+}
+.top-logo a{
+    width: 258px;
+    height: 39px;
+    display: block;
+}
+
+.top-search{
+    margin-right: 0;
+    width: 36%;
+    float: left;
+}
+.top-search-form{
+    background: #eeefed;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px 0 0 0;
+    text-align: center;
+    display: block;
+}
+.top-form-input{
+    line-height: 34px;
+    left: 9px;
+    top: 0;
+    text-align: initial;
+    white-space: nowrap;
+    right: 9px;
+    height: 35px;
+    width: 94%;
+    padding: 0 3% 0 3%;
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    color: #ccc;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+/*导航栏的css*/
+.navigate{
+    background: #96b97d;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navigate-tool{
+    width: 100%;
+    max-width: 1260px;
+    min-width: 755px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.navigate-float{
+    height: 24px;
+    padding: 10px 0 0 20px;
+    width: 100%;
+    font-size: 14px;
+    margin-right: 1%;
+    float: left;
+}
+.navigate-ul{
+    display: block;
+    white-space: nowrap;
+    list-style: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+}
+.navigate-ul li{
+    display: inline;
+    margin: 0 20px 0 0;
+    line-height: 19px;
+}
+.navigate-ul li a{
+    color: white;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+}
